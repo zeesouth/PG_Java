@@ -35,6 +35,8 @@
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42627">디스크 컨트롤러</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77486">다단계 칫솔 판매</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72415">카드 짝 맞추기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43105">정수 삼각형</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42628">이중우선순위큐</a>
 </pre>
 </div>
 </details>
