@@ -38,6 +38,7 @@
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43105">정수 삼각형</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42628">이중우선순위큐</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/67258">보석 쇼핑</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12987">숫자 게임</a>
 </pre>
 </div>
 </details>
