@@ -40,6 +40,7 @@
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/67258">보석 쇼핑</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12987">숫자 게임</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42861">섬 연결하기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42898">등굣길</a>
 </pre>
 </div>
 </details>
