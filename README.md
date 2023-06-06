@@ -1,4 +1,7 @@
-# Programmers_Java
+# PS_Java
+problem solving (java)
+
+### programmers
 <details>
 <summary>LV. 1</summary>
 <div markdown="1">       
@@ -55,6 +58,16 @@
 <summary>LV. 5</summary>
 <div markdown="1">       
 <pre>
+</pre>
+</div>
+</details>
+
+### codetree
+<details>
+<summary>삼성 SW 역량 테스트 기출문제</summary>
+<div markdown="1">       
+<pre>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/rabit-and-race?page=3&pageSize=20">[2023 상반기 오전 2번] 토끼와 경주</a>
 </pre>
 </div>
 </details>
