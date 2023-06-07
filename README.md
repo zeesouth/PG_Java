@@ -69,6 +69,7 @@ problem solving (java)
 <pre>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/rabit-and-race?page=3&pageSize=20">[2023 상반기 오전 2번] 토끼와 경주</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/santa-gift-factory/description?page=3&pageSize=20">[2022 하반기 오전 2번] 산타의 선물 공장</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/tail-catch-play/description?page=3&pageSize=20">[2022 상반기 오후 1번] 꼬리잡기놀이</a>
 </pre>
 </div>
 </details>
