@@ -3,7 +3,7 @@ package codetree.samsung.n2022_1_2_1;
 import java.io.*;
 import java.util.*;
 public class Main {
-    static final int MAX_N = 20, MAX_M = 5;
+    static final int MAX_N = 20;
     static int map[][] = new int[MAX_N][MAX_N];
     static int tMap[][] = new int[MAX_N][MAX_N];
     static ArrayList<Team> teamArr = new ArrayList<>();
@@ -20,9 +20,8 @@ public class Main {
             move(round);
         }
         int ans = 0;
-        for(Team t : teamArr) {
-            ans += t.score;
-        }
+        for(Team t : teamArr) ans += t.score;
+
         System.out.println(ans);
         br.close();
     }
