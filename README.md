@@ -71,6 +71,7 @@ problem solving (java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/santa-gift-factory/description?page=3&pageSize=20">[2022 하반기 오전 2번] 산타의 선물 공장</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/tail-catch-play/description?page=3&pageSize=20">[2022 상반기 오후 1번] 꼬리잡기놀이</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/tree-kill-all/description?page=3&pageSize=20">[2022 상반기 오후 2번] 나무박멸</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/sam-pizza-school/description?page=3&pageSize=20">[2021 하반기 오후 2번] Sam의 피자학교</a>
 </pre>
 </div>
 </details>
