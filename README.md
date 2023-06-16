@@ -48,6 +48,7 @@ problem solving (java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42884">단속카메라</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72413">합승 택시 요금</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/60059">자물쇠와 열쇠</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150367">표현 가능한 이진트리</a>
 </pre>
 </div>
 </details>
