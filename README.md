@@ -46,6 +46,7 @@ problem solving (java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42898">등굣길</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42892">길 찾기 게임</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42884">단속카메라</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72413">합승 택시 요금</a>
 </pre>
 </div>
 </details>
