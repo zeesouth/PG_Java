@@ -51,6 +51,7 @@ problem solving (java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150367">표현 가능한 이진트리</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150366">표 병합</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/118668">코딩 테스트 공부</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12971">스티커 모으기(2)</a>
 </pre>
 </div>
 </details>
