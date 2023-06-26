@@ -54,6 +54,7 @@ problem solving (java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12971">스티커 모으기(2)</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92345">사라지는 발판</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92344">파괴되지 않는 건물</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/161988">연속 펄스 부분 수열의 합</a>
 </pre>
 </div>
 </details>
