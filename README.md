@@ -55,6 +55,7 @@ problem solving (java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92345">사라지는 발판</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92344">파괴되지 않는 건물</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/161988">연속 펄스 부분 수열의 합</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/152995">인사고과</a>
 </pre>
 </div>
 </details>
