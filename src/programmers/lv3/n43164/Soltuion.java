@@ -6,6 +6,7 @@ class Solution {
     public String[] solution(String[][] tickets) {
         visited = new boolean[tickets.length];
         dfs(tickets, "ICN", 0, "ICN");
+        // 티켓 정렬
         Collections.sort(ans);
 
         return ans.get(0).split(" ");
