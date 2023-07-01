@@ -79,6 +79,8 @@ problem solving (java)
 </div>
 </details>
 
+<br/>
+
 ### codetree
 <details>
 <summary>삼성 SW 역량 테스트 기출문제</summary>
@@ -90,6 +92,69 @@ problem solving (java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/tree-kill-all/description?page=3&pageSize=20">[2022 상반기 오후 2번] 나무박멸</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/sam-pizza-school/description?page=3&pageSize=20">[2021 하반기 오후 2번] Sam의 피자학교</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/codetree-judger/description?page=3&pageSize=20">[2023 상반기 오후 2번] 코드트리 채점기</a>
+</pre>
+</div>
+</details>
+
+<br/>
+
+### SWEA
+<details>
+<summary>?</summary>
+<div markdown="1">       
+<pre>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf">1767. 프로세서 연결하기</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary>모의 SW 역량테스트</summary>
+<div markdown="1">       
+<pre>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq&categoryId=AV5PpFQaAQMDFAUq&categoryType=CODE&problemTitle=%EB%AA%A8%EC%9D%98&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=2">1952. 수영장</a>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV6c6bgaIuoDFAXy&categoryId=AV6c6bgaIuoDFAXy&categoryType=CODE&&&">2477. 차량 정비소</a>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu&categoryId=AV5V1SYKAaUDFAWu&categoryType=CODE">2112. 보호 필름</a>
+- <a herf="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRFInKex8DFAUo&categoryId=AWXRFInKex8DFAUo&categoryType=CODE&problemTitle=%ED%85%8C%EC%8A%A4%ED%8A%B8&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=&pageSize=10&pageIndex=1">5648. 원자 소멸 시뮬레이션</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary><a href="https://swexpertacademy.com/main/code/problem/problemList.do?problemLevel=3&contestProbId=&categoryId=&categoryType=&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=4&pageSize=10&pageIndex=1"> D3</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOHEx66kIDFAWr">3304. 최장 공통 부분 수열</a>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr">3282. 0/1 Knapsack</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary><a href="https://swexpertacademy.com/main/code/problem/problemList.do?problemLevel=4&contestProbId=&categoryId=&categoryType=&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=4&pageSize=10&pageIndex=1"> D4</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc&categoryId=AV5LwsHaD1MDFAXc&categoryType=CODE&problemTitle=%ED%8C%8C%ED%95%91%ED%8C%8C%ED%95%91&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1">1868. 파핑파핑 지뢰찾기</a>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW2Jo6bqABMDFATy">8676. 동현이와 한결이는 아이돌</a>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXpz5_AavskDFATi">12222. 문자열 나누기</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary><a href="https://swexpertacademy.com/main/code/problem/problemList.do?problemLevel=5&contestProbId=&categoryId=&categoryType=&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=4&pageSize=10&pageIndex=1"> D5</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW5jNL968dwDFATQ">8935. 스팟마트</a>
+</pre>
+</div>
+</details>
+
+<details>
+<summary><a href="https://swexpertacademy.com/main/code/problem/problemList.do?problemLevel=6&contestProbId=&categoryId=&categoryType=&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1"> D6</a></summary>
+<div markdown="1">       
+<pre>
+- <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LnipaDvwDFAXc">1855. 영준이의 진짜 BFS</a>
 </pre>
 </div>
 </details>
