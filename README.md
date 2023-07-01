@@ -1,5 +1,5 @@
 # PS_Java
-problem solving (java)
+Problem Solving 📝 (Language : Java)
 
 ### programmers
 <details>
