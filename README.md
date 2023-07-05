@@ -62,6 +62,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/64062">징검다리 건너기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/64064">불량 사용자</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72414">광고 삽입</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17678">[1차] 셔틀버스</a>
 </pre>
 </div>
 </details>
