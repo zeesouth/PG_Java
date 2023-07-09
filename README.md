@@ -66,6 +66,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17676">[1차] 추석 트래픽</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/60062">외벽 점검</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12927">야근 지수</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/67259">경주로 건설</a>
 </pre>
 </div>
 </details>
