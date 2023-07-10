@@ -67,6 +67,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/60062">외벽 점검</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12927">야근 지수</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/67259">경주로 건설</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42579">베스트앨범</a>
 </pre>
 </div>
 </details>
