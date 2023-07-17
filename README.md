@@ -105,6 +105,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/codetree-judger/description?page=3&pageSize=20">[2023 상반기 오후 2번] 코드트리 채점기</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/artistry/description?page=3&pageSize=20">[2022 상반기 오전 2번] 예술성</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/hide-and-seek/description?page=3&pageSize=20">[2022 상반기 오전 1번] 술래 잡기</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/pacman/description?page=3&pageSize=20">[2021 하반기 오후 1번] 팩맨</a>
 </pre>
 </div>
 </details>
