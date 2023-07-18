@@ -71,6 +71,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42895">N으로 표현</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12904">가장 긴 팰린드롬</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43238">입국심사</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/68646">풍선 터트리기</a>
 </pre>
 </div>
 </details>
