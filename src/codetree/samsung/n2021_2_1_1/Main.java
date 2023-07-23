@@ -11,11 +11,12 @@ public class Main {
 
     static StringTokenizer st;
     static int map[][] = new int[MAX_N][MAX_N];
-    // 미로의 다음 방향을 나타냄
-    static int next[][][] = new int[MAX_N][MAX_N][2];
-    // 미로의 재비치된 배열 내용
-    static int reArr[] = new int[MAX_N * MAX_N];
-    static int N, M, mCnt, ans;
+    // 실제 몬스터
+    static Pair monsters[] = new Pair[MAX_N * MAX_N];
+
+    // 끝 인덱스
+    static int ey, ex;
+    static int N, M, ans, mCnt;
 
     public static void main(String[] args) throws Exception {
         init();
@@ -26,73 +27,118 @@ public class Main {
 
             attack(d, p);
             while (delete()) ;
-            relocate();
-            initDirect(true);
+            resetDirect();
         }
         System.out.println(ans);
 
         br.close();
     }
 
-    private static void relocate() {
-        mCnt = 0;
-        int y = N / 2 + 1;
-        int x = N / 2 + 1;
-        int type = 0, cnt = 0;
+    private static void resetDirect() {
+
+        int new_mCnt = 1;
+        int arr[] = new int[MAX_N * MAX_N * 2];
+
+        int idx = 0;
+        int type = -1, cnt = 0;
         while (true) {
-            int nextY = next[y][x][0];
-            int nextX = next[y][x][1];
-            if (!isRange(nextY, nextX)) break;
-            if (type != map[nextY][nextX]) {
-                if (type != 0) {
-                    reArr[mCnt++] = cnt;
-                    reArr[mCnt++] = type;
+            idx = monsters[idx].next;
+            if (idx == -1) {
+                arr[new_mCnt++] = cnt;
+                arr[new_mCnt++] = type;
+                break;
+            }
+            if (type != monsters[idx].data) {
+                if (type != -1) {
+                    arr[new_mCnt++] = cnt;
+                    arr[new_mCnt++] = type;
+
                 }
-                type = map[nextY][nextX];
-                cnt = 0;
+                type = monsters[idx].data;
+                cnt = 1;
             } else {
                 cnt++;
             }
         }
+
+
+        int newMap[][] = new int[N][N];
+
+        int y = N / 2;
+        int x = N / 2;
+
+        int i = 0;
+        int a = 0;
+        int b = 1;
+        int d = 2;
+
+        mCnt = 0;
+
+        do {
+            monsters[mCnt] = new Pair(mCnt, y, x, arr[mCnt]);
+            newMap[y][x] = mCnt;
+            y += dy[d];
+            x += dx[d];
+            a++;
+            if (a == b) {
+                d = (d - 1 + 4) % 4;
+                a = 0;
+                i++;
+                if (i % 2 == 0) b++;
+            }
+            mCnt++;
+        } while (isRange(y, x) && mCnt < new_mCnt);
+
+        monsters[0].before = -1;
+        monsters[mCnt - 1].next = -1;
+        map = newMap;
     }
 
     private static boolean delete() {
         boolean flag = false;
 
-        int y = N / 2 + 1;
-        int x = N / 2 + 1;
+        int idx = 0;
+        int start = 0;
         int type = 0, cnt = 0;
-        int sy = y, sx = x;
+
         while (true) {
-            int nextY = next[y][x][0];
-            int nextX = next[y][x][1];
-            if (!isRange(nextY, nextX)) break;
-            if (type != map[nextY][nextX]) {
+            idx = monsters[idx].next;
+            if (idx == -1) {
                 if (cnt >= 4) {
                     ans += type * cnt;
-                    next[sy][sx][0] = nextY;
-                    next[sy][sx][1] = nextX;
+                    monsters[monsters[start].before].next = idx;
+                }
+                break;
+            }
+            if (type != monsters[idx].data) {
+                if (cnt >= 4) {
+                    ans += type * cnt;
+                    monsters[monsters[start].before].next = idx;
+                    monsters[idx].before = monsters[start].before;
                     if (!flag) flag = true;
                 }
-                type = map[nextY][nextX];
-                cnt = 0;
-                sy = nextY;
-                sx = nextX;
-            } else {
-                cnt++;
-            }
+                start = idx;
+                type = monsters[idx].data;
+                cnt = 1;
+            } else cnt++;
         }
         return flag;
     }
 
     private static void attack(int d, int p) {
-        int y = N / 2 + 1 + dy[d];
-        int x = y + dx[d];
-
-        while (isRange(y, x) && p-- > 0) {
-            ans += map[y][x];
-            map[y][x] = 0;
-        }
+        int y = N / 2 + dy[d];
+        int x = N / 2 + dx[d];
+        do {
+            int idx = map[y][x];
+            ans += monsters[idx].data;
+            // 현재 이전의 다음은, 현재 다음을 가리킴
+            monsters[monsters[idx].before].next = monsters[idx].next;
+            // 현재 다음의 이전은, 현재 이전을 가리킴
+            if (monsters[idx].next != -1)
+                monsters[monsters[idx].next].before = monsters[idx].before;
+            y += dy[d];
+            x += dx[d];
+        } while (isRange(y, x) && --p > 0 && map[y][x] != 0);
     }
 
     private static void init() throws Exception {
@@ -105,50 +151,61 @@ public class Main {
             for (int j = 0; j < N; j++) map[i][j] = Integer.parseInt(st.nextToken());
         }
 
-        initDirect(false);
+        initDirect();
     }
 
-    private static void initDirect(boolean flag) {
-        // 좌 하 우 상
-        int l = 0;
-        int L = 1;
-        int d = 3; // --
+    private static void initDirect() {
+        int y = N / 2;
+        int x = N / 2;
 
         int i = 0;
-        int y = N / 2 + 1;
-        int x = N / 2 + 1;
+        int a = 0;
+        int b = 1;
+        int d = 2;
 
-        int m = 0;
-
-        while (true) {
-            if ((!flag && map[next[y][x][0]][next[y][x][1]] == 0) ||
-            flag && m == mCnt) {
-                next[y][x][0] = -1;
-                next[y][x][1] = -1;
-                break;
-            }
-
-            next[y][x][0] = y + dy[d];
-            next[y][x][1] = x + dx[d];
-
-            y = next[y][x][0];
-            x = next[y][x][1];
-
-            if (!isRange(y, x)) break;
-
-            if (flag) map[y][x] = reArr[m++];
-
-            l++;
-            if (l == L) {
-                i++;
+        mCnt = 0;
+        do {
+            monsters[mCnt] = new Pair(mCnt, y, x, map[y][x]);
+            map[y][x] = mCnt;
+            y += dy[d];
+            x += dx[d];
+            a++;
+            if (a == b) {
                 d = (d - 1 + 4) % 4;
-                l = 0;
-                if (i % 2 == 0) L++;
+                a = 0;
+                i++;
+                if (i % 2 == 0) b++;
             }
-        }
+            mCnt++;
+        } while (isRange(y, x) && map[y][x] != 0);
+
+        monsters[0].before = -1;
+        monsters[mCnt - 1].next = -1;
     }
 
     private static boolean isRange(int y, int x) {
         return y >= 0 && y < N && x >= 0 && x < N;
+    }
+
+    private static void print(int arr[][]) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) System.out.print(arr[i][j] + " ");
+            System.out.println();
+        }
+    }
+
+    static class Pair {
+        int id, before, next;
+        int y, x, data;
+
+        Pair(int id, int y, int x, int data) {
+            this.y = y;
+            this.x = x;
+            this.data = data;
+            this.id = id;
+            this.before = id - 1;
+            this.next = id + 1;
+        }
+
     }
 }
