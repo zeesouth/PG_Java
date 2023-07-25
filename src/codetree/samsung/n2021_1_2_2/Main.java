@@ -1,4 +1,4 @@
-package codetree.samsung.n2021_2_1_1;
+package codetree.samsung.n2021_1_2_2;
 
 import java.io.*;
 import java.util.*;
