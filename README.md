@@ -112,7 +112,8 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/hide-and-seek/description?page=3&pageSize=20">[2022 상반기 오전 1번] 술래 잡기</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/pacman/description?page=3&pageSize=20">[2021 하반기 오후 1번] 팩맨</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/cooling-system/description?page=3&pageSize=20">[2021 하반기 오전 2번] 냉방 시스템</a>
-- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/maze-tower-defense/description?page=2&pageSize=20">[2021 하반기 오전 1번] 미로 타워 디펜스</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/maze-tower-defense/description?page=2&pageSize=20">[2021 상반기 오후 2번] 미로 타워 디펜스</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/colored-bomb/description?page=2&pageSize=20">[2021 상반기 오전 2번] 색깔 폭탄</a>
 </pre>
 </div>
 </details>
