@@ -87,6 +87,7 @@ Problem Solving 📝 (Language : Java)
 <div markdown="1">       
 <pre>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42897">도둑질</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/43236">징검다리</a>
 </pre>
 </div>
 </details>
