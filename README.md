@@ -104,6 +104,18 @@ Problem Solving 📝 (Language : Java)
 
 <br/>
 
+### softeer
+<details>
+<summary>LV. 2</summary>
+<div markdown="1">       
+<pre>
+- <a href="https://softeer.ai/practice/info.do?idx=1&eid=395">금고 털이</a>
+</pre>
+</div>
+</details>
+
+<br/>
+
 ### codetree
 <details>
 <summary>삼성 SW 역량 테스트 기출문제</summary>
