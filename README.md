@@ -113,6 +113,28 @@ Problem Solving 📝 (Language : Java)
 </pre>
 </div>
 </details>
+<details>
+<summary>LV. 3</summary>
+<div markdown="1">       
+<pre>
+</pre>
+</div>
+</details>
+<details>
+<summary>LV. 4</summary>
+<div markdown="1">       
+<pre>
+- <a href="https://softeer.ai/practice/info.do?idx=1&eid=582">지우는 소수를 좋아해</a>
+</pre>
+</div>
+</details>
+<details>
+<summary>LV. 5</summary>
+<div markdown="1">       
+<pre>
+</pre>
+</div>
+</details>
 
 <br/>
 
