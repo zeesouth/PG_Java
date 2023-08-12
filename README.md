@@ -125,6 +125,7 @@ Problem Solving 📝 (Language : Java)
 <div markdown="1">       
 <pre>
 - <a href="https://softeer.ai/practice/info.do?idx=1&eid=582">지우는 소수를 좋아해</a>
+- <a href="https://softeer.ai/practice/info.do?idx=1&eid=393">징검다리2</a>
 </pre>
 </div>
 </details>
