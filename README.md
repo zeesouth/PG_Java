@@ -33,6 +33,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/81302">거리두기 확인하기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/169198">당구 연습</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42890">후보키</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17687">[3차] n진수 게임</a>
 </pre>
 </div>
 </details>
