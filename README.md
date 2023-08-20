@@ -164,6 +164,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/maze-tower-defense/description?page=2&pageSize=20">[2021 상반기 오후 2번] 미로 타워 디펜스</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/colored-bomb/description?page=2&pageSize=20">[2021 상반기 오전 2번] 색깔 폭탄</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/cube-rounding-again/description?page=2&pageSize=20">[2021 하반기 오전 1번] 정육면체 한번 더 굴리기</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/woodstick-fraud/description?page=2&pageSize=20&statuses=Ready%2CIn+Progress">[2019 하반기 오후 2번] 윷놀이 사기단</a>
 </pre>
 </div>
 </details>
