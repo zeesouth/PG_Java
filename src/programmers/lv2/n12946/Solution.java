@@ -1,6 +1,7 @@
-package programmers.lv3.n12946;
+package programmers.lv2.n12946;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
     private static List<int[]> ansList;

@@ -39,6 +39,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150368">이모티콘 할인행사</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150369">택배 배달과 수거하기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17686">[3차] 파일명 정렬</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12946">하노이의 탑</a>
 </pre>
 </div>
 </details>
@@ -90,7 +91,6 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12907">거스름돈</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/132266">부대복귀</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/81303">표 편집</a>
-- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12946">하노이의 탑</a>
 </pre>
 </div>
 </details>
