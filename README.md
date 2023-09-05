@@ -40,6 +40,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150369">택배 배달과 수거하기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/17686">[3차] 파일명 정렬</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12946">하노이의 탑</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/159993">미로 탈출</a>
 </pre>
 </div>
 </details>
