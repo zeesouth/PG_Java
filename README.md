@@ -92,6 +92,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12907">거스름돈</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/132266">부대복귀</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/81303">표 편집</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12920">표 편집</a>
 </pre>
 </div>
 </details>
