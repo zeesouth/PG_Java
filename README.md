@@ -44,6 +44,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/148653">마법의 엘리베이터</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42584">주식가격/a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42586">기능개발/a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/181187">두 원 사이의 정수 쌍/a>
 </pre>
 </div>
 </details>
