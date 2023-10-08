@@ -178,6 +178,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/cube-rounding-again/description?page=2&pageSize=20">[2021 하반기 오전 1번] 정육면체 한번 더 굴리기</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/woodstick-fraud/description?page=2&pageSize=20&statuses=Ready%2CIn+Progress">[2019 하반기 오후 2번] 윷놀이 사기단</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/tree-tycoon/description?page=1&pageSize=20">[2021 상반기 오후 1번] 나무 타이쿤</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/go-on-the-rides/description?page=1&pageSize=20">[2021 상반기 오전 1번] 놀이기구 탑승</a>
 </pre>
 </div>
 </details>
