@@ -51,6 +51,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/142085">디펜스 게임</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/67257">수식 최대화</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92335">k진수에서 소수 개수 구하기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92341">주차 요금 계산</a>
 </pre>
 </div>
 </details>
