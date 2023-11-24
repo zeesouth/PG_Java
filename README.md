@@ -49,6 +49,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/181187">두 원 사이의 정수 쌍</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/176962">과제 진행하기</a> 
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/142085">디펜스 게임</a> 
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/67257">수식 최대화</a> 
 </pre>
 </div>
 </details>
