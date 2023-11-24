@@ -1,14 +1,17 @@
 package test;
 
-import java.util.PriorityQueue;
-
 public class Main {
     public static void main(String[] args) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>(
-                (o1, o2) -> o2 - o1
-        );
-        pq.add(1);
-        pq.add(2);
-        System.out.println(pq.poll());
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for(int i=1;i<=99;i++) {
+            sb.append("[");
+            sb.append(i);
+            sb.append(",");
+            sb.append(i+1);
+            sb.append("], ");
+        }
+        sb.append("]");
+        System.out.println(sb);
     }
 }
