@@ -12,6 +12,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42576">완주하지 못한 선수</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370">개인정보 수집 유효기간</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/118666">성격 유형 검사하기</a>
 </pre>
 </div>
 </details>
