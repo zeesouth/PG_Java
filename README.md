@@ -189,6 +189,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/royal-knight-duel/description?page=1&pageSize=20">[2023 하반기 오전 1번] 왕실의 기사 대결</a>ㅇ
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/codetree-messenger/description?page=1&pageSize=20">[2023 하반기 오전 2번] 코드트리 메신저</a>
 - <a href="https://www.codetree.ai/training-field/frequent-problems/problems/rudolph-rebellion/description?page=1&pageSize=20">[2023 하반기 오후 1번] 루돌프의 반란</a>
+- <a href="https://www.codetree.ai/training-field/frequent-problems/problems/codetree-omakase/description?page=1&pageSize=20">[2023 하반기 오후 2번] 코드트리 오마카세</a>
 </pre>
 </div>
 </details>
