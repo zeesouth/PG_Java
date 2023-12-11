@@ -5,118 +5,174 @@ import java.util.*;
 
 public class Main {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static StringTokenizer st = null;
+    static StringTokenizer st;
     static StringBuilder sb = new StringBuilder();
-    static final int MAX_N = 100_000;
+    static final int MAX_N = 100_001, MAX_D = 22;
+    // 뎁스별로 부모를 나타냄
+    static int author[] = new int[MAX_N];    // 권한 세기
+    static int parent[] = new int[MAX_N];       // 부모
+    static int value[] = new int[MAX_N];        // ?
+    static boolean mute[] = new boolean[MAX_N];   // 알림 ON/OFF 여부
+    static int[][] na = new int[MAX_N][MAX_D];  // i번노드가 j만큼 위에 전달할 수 있는 채팅창 개수
     static int N, Q;
 
-    static int parent[][] = new int[MAX_N + 1][2];      //pNum, left/right
-    static int power[] = new int[MAX_N + 1];
-    static int child[][] = new int[MAX_N + 1][2];     // left, right
-    static boolean mute[] = new boolean[MAX_N + 1];
-
     public static void main(String[] args) throws Exception {
-        start();
-        while (Q-- > 0) {
-            simulate();
-        }
-        System.out.println(sb);
-    }
-
-    private static void simulate() throws Exception {
-        st = new StringTokenizer(br.readLine());
-        int order = Integer.parseInt(st.nextToken());
-
-        if (order == 100) init();
-        else if (order == 200) setAlarm();
-        else if (order == 300) updatePower();
-        else if (order == 400) changeParent();
-        else sb.append(searchAvailCnt()).append("\n");
-
-    }
-
-    private static int searchAvailCnt() {
-        int c = Integer.parseInt(st.nextToken());
-
-
-        int cnt = 0;
-
-        Stack<int[]> stack = new Stack<>();
-        stack.add(new int[]{c, 0}); // id, depth
-
-        while (!stack.isEmpty()) {
-            int[] curr = stack.pop();
-
-            int id = curr[0];
-            int depth = curr[1];
-
-            for (int i = 0; i <= 1; i++) {
-                int next = child[id][i];
-                if (next == 0) continue;
-                if (mute[next]) continue;
-
-                int nextP = power[next];
-                if (nextP > depth) cnt++;
-
-                stack.add(new int[]{next, depth + 1});
-            }
-
-        }
-
-        return cnt;
-    }
-
-    private static void changeParent() {
-        int c1 = Integer.parseInt(st.nextToken());
-        int c2 = Integer.parseInt(st.nextToken());
-
-        if(parent[c1][0] == parent[c2][0]) return;
-
-        // 부모 바꾸기
-        int tmp[] = {parent[c1][0], parent[c1][1]};
-
-        parent[c1][0] = parent[c2][0];
-        parent[c1][1] = parent[c2][1];
-        child[parent[c2][0]][parent[c2][1]] = c1;
-
-        parent[c2][0] = tmp[0];
-        parent[c2][1] = tmp[1];
-        child[tmp[0]][tmp[1]] = c2;
-    }
-
-    private static void updatePower() {
-        int c = Integer.parseInt(st.nextToken());
-        int p = Integer.parseInt(st.nextToken());
-        power[c] = p;
-    }
-
-    private static void setAlarm() {
-        int c = Integer.parseInt(st.nextToken());
-        mute[c] = !mute[c];
-    }
-
-    private static void init() {
-        for (int i = 1; i <= N; i++) {
-            int p = Integer.parseInt(st.nextToken());
-            parent[i][0] = p;
-            if (child[p][0] == 0) {
-                child[p][0] = i;
-                parent[i][1] = 0;
-            } else {
-                child[p][1] = i;
-                parent[i][1] = 1;
-            }
-        }
-
-        for (int i = 1; i <= N; i++) {
-            power[i] = Integer.parseInt(st.nextToken());
-        }
-    }
-
-    private static void start() throws Exception {
         st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         Q = Integer.parseInt(st.nextToken());
+
+        while (Q-- > 0) {
+            st = new StringTokenizer(br.readLine());
+            int order = Integer.parseInt(st.nextToken());
+            int node, power, node1, node2;
+
+            switch (order) {
+                case 100:
+                    init();
+                    break;
+                case 200:
+                    node = Integer.parseInt(st.nextToken());
+                    toggleNotice(node);
+                    break;
+                case 300:
+                    node = Integer.parseInt(st.nextToken());
+                    power = Integer.parseInt(st.nextToken());
+                    changePower(node, power);
+                    break;
+                case 400:
+                    node1 = Integer.parseInt(st.nextToken());
+                    node2 = Integer.parseInt(st.nextToken());
+                    changeParent(node1, node2);
+                    break;
+                case 500:
+                    node = Integer.parseInt(st.nextToken());
+                    printCount(node);
+            }
+        }
+
+        System.out.println(sb);
     }
 
+    // 100: 사내 메신저 준비
+    private static void init() throws Exception {
+
+        // 각 노드의 부모 채팅방 번호
+        for (int i = 1; i <= N; i++) {
+            parent[i] = Integer.parseInt(st.nextToken());
+        }
+
+        // 각 노드의 권한
+        for (int i = 1; i <= N; i++) {
+            author[i] = Math.min(Integer.parseInt(st.nextToken()), 20);
+
+        }
+
+        for (int i = 1; i <= N; i++) {
+            int curr = i;
+            int power = author[i];
+            na[curr][power]++;
+
+            while (parent[curr] != 0 && power != 0) {
+                curr = parent[curr];
+                power--;
+                if (power != 0) na[curr][power]++;
+                value[curr]++;
+            }
+        }
+
+    }
+
+    // 200: 알림망 설정 ON/OFF
+    private static void toggleNotice(int node) {
+        int curr = parent[node];
+        int power = 1;
+
+        // 알림 OFF -> ON
+        if (mute[node]) {
+            // 상위 채팅으로 이동하여 알림여부(notice 값)에 따라 na, value 값 갱신하기
+            while (curr != 0) {
+                for (int i = power; i < MAX_D; i++) {
+                    value[curr] += na[node][i];
+                    if (i > power) na[curr][i - power] += na[node][i];
+                }
+
+                if (mute[curr]) break;
+                curr = parent[curr];
+                power++;
+            }
+        }
+        // 알림 ON -> OFF
+        else {
+            // 상위 채팅으로 이동하여 알림여부(notice 값)에 따라 na, value 값 갱신하기
+            while (curr != 0) {
+                for (int i = power; i < MAX_D; i++) {
+                    value[curr] -= na[node][i];
+                    if (i > power) na[curr][i - power] -= na[node][i];
+                }
+
+                if (mute[curr]) break;
+                curr = parent[curr];
+                power++;
+            }
+        }
+
+        mute[node] = !mute[node];
+    }
+
+    // 300: 권한 세기 변경
+    private static void changePower(int node, int power) {
+        int before_power = author[node];
+        power = Math.min(power, 20);
+        author[node] = power;
+
+        na[node][before_power]--;
+        if (!mute[node]) {
+            int currN = parent[node];
+            int currP = 1;
+
+            while (currN != 0) {
+                if (before_power >= currP) value[currN]--;
+                if (before_power > currP) na[currN][before_power - currP]--;
+                if (mute[currN]) break;
+                currN = parent[currN];
+                currP++;
+            }
+        }
+
+        na[node][power]++;
+        if (!mute[node]) {
+            int currN = parent[node];
+            int currP = 1;
+
+            while (currN != 0) {
+                if (power >= currP) value[currN]++;
+                if (power > currP) na[currN][power - currP]++;
+                if (mute[currN]) break;
+                currN = parent[currN];
+                currP++;
+            }
+        }
+    }
+
+    // 400: 부모 채팅방 교환
+    private static void changeParent(int node1, int node2) {
+        boolean before_mute1 = mute[node1];
+        boolean before_mute2 = mute[node2];
+
+        if (!mute[node1]) toggleNotice(node1);
+        if (!mute[node2]) toggleNotice(node2);
+
+        int temp = parent[node1];
+        parent[node1] = parent[node2];
+        parent[node2] = temp;
+
+        if (!before_mute1) toggleNotice(node1);
+        if (!before_mute2) toggleNotice(node2);
+    }
+
+
+    // 500: 알림을 받을 수 있는 채팅방 수 조회
+    private static void printCount(int node) {
+        sb.append(value[node]).append("\n");
+    }
 }
