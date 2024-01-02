@@ -110,6 +110,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/214289">에어컨</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/214288">상담원 인원</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150365">미로 탈출 명령어</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92343">양과 늑대</a>
 </pre>
 </div>
 </details>
