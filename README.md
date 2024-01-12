@@ -55,6 +55,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/250135">아날로그 시계</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12985">예상 대진표</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42626">더 맵게</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258711">도넛 그래프</a>
 </pre>
 </div>
 </details>
