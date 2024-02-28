@@ -58,6 +58,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258711">도넛 그래프</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42578">의상</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/64065">튜플</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72411">메뉴 리뉴얼</a>
 </pre>
 </div>
 </details>
