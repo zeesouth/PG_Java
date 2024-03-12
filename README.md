@@ -116,6 +116,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/150365">미로 탈출 명령어</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92343">양과 늑대</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/77886">110 옮기기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86053">금과 은 운반하기</a>
 </pre>
 </div>
 </details>
