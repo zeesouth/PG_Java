@@ -60,6 +60,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/64065">튜플</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72411">메뉴 리뉴얼</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/154539">뒤에 있는 큰 수 찾기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49993">스킬트리</a>
 </pre>
 </div>
 </details>
