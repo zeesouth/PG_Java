@@ -62,6 +62,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/154539">뒤에 있는 큰 수 찾기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/49993">스킬트리</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12899">124 나라의 숫자</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12914">멀리 뛰기</a>
 </pre>
 </div>
 </details>
