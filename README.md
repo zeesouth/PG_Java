@@ -124,6 +124,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86053">금과 은 운반하기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1837">GPS</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/118669">등산코스 정하기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258709">주사위 고르기</a>
 </pre>
 </div>
 </details>
