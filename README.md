@@ -64,6 +64,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12899">124 나라의 숫자</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12914">멀리 뛰기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131127">할인 행사</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/172927">광물 캐기</a>
 </pre>
 </div>
 </details>
