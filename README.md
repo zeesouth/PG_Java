@@ -67,6 +67,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/172927">광물 캐기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/76502">괄호 회전하기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12973">짝지어 제거하기</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86052">빛의 경로 사이클</a>
 </pre>
 </div>
 </details>
