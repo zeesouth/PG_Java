@@ -70,6 +70,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/86052">빛의 경로 사이클</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1829">카카오프렌즈 컬러링북</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72412">순위 검색</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131704">택배상자</a>
 </pre>
 </div>
 </details>
