@@ -71,6 +71,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1829">카카오프렌즈 컬러링북</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72412">순위 검색</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131704">택배상자</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/148652">유사 칸토어 비밀</a>
 </pre>
 </div>
 </details>
