@@ -72,6 +72,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72412">순위 검색</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131704">택배상자</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/148652">유사 칸토어 비밀</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1835">단체사진 찍기</a>
 </pre>
 </div>
 </details>
