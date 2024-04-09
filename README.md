@@ -138,6 +138,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/131129">카운트 다운</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258705">산 모양 타일링</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258707">n + 1 카드게임</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/133500">등대</a>
 </pre>
 </div>
 </details>
