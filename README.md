@@ -74,6 +74,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/148652">유사 칸토어 비밀</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/1835">단체사진 찍기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12953">N개의 최소공배수</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/135807">숫자 카드 나누기</a>
 </pre>
 </div>
 </details>
