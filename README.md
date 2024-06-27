@@ -78,6 +78,7 @@ Problem Solving 📝 (Language : Java)
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/132265">롤케이크 자르기</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/154540">무인도 여행</a>
 - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/152996">시소 짝궁</a>
+- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92342">양궁대회</a>
 </pre>
 </div>
 </details>
